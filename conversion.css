@@ -1,0 +1,46 @@
+main {
+    width: 500px;
+    height: 350px;
+    background-color: white;
+    border: 2px solid brown;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+h1 {
+    color: brown;
+}
+p {
+    border: 2px solid brown;
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    padding: 6px;
+    color: brown;
+    font-weight: bold;
+    font-size: 25px;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+input{
+    height: 30px;
+    width: 250px;
+    color: brown;
+    border: 1px solid brown;
+}
+button {
+    background-color: brown;
+    border-radius: 9px;
+    height: 30px;
+    width: 150px;
+}
+button:hover {
+    background-color: rgb(116, 19, 19);
+}
